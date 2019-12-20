@@ -2,14 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <parameter name="browser" value="chrome"/>
-    <parameter name="url" value="http://10.8.32.103:8090/login?toUrl=http%3A%2F%2F10.8.32.103%3A8090%2Flogin"/>
+    <parameter name="url" value=""/>
     <parameter name="username" value="huangsp1"/>
     <parameter name="password" value="1"/>
-    <parameter name="editPage" value="http://10.8.32.103:8090/screen/654045376453541888?workspaceId=606802768258138112"/>
+    <parameter name="editPage" value=""/>
     <test verbose="2" preserve-order="true" name="test">
         <classes>
             <class name="com.web.runcase.EditCase" >
-                <parameter name="url" value="http://10.8.32.103:8090/screen/654045376453541888?workspaceId=606802768258138112"/>
+                <parameter name="url" value=""/>
                 <methods>
                     <include name="AddComponetCase"></include>
                     <include name="CopyComponetCase"></include>
